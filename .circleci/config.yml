@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm run webdriver-manager --versions.chrome=70.0.3538.16
+      - run: npm webdriver-manager --versions.chrome=70.0.3538.16
     
 
 
